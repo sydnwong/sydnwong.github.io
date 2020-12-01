@@ -1,0 +1,141 @@
+
+/* HOME PAGE */
+
+#home-page body{
+    background: red;
+}
+
+#logo {
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+}
+
+#menu {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+/* NAV BAR */
+
+#nav-bar {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-button {
+    font-family: 'Rubik';
+    font-style: italic;
+    position: absolute;
+    font-size: 5em;
+    left: 1%;
+    top: 5%;
+    transform: rotate(-10deg);
+    display: flex;
+    flex-direction: row;
+}
+
+/* LINKS */
+
+.cunning {
+    color: #E0F9FB;
+}
+
+.links {
+    color: white;
+    font-size: 48px;
+}
+.fa-images {
+    color: #E0F9FB;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transform: translate(-50%, -25%);
+    z-index: 1;
+    animation-name: upDown;
+   animation-duration: 1s;
+   animation-timing-function: ease-in;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-direction: reverse;
+}
+
+.fa-birthday-cake {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    z-index: 1;
+    transform: translateX(-25%);
+    color: #FFFDEC;
+    animation-name: leftRight;
+   animation-duration: 1s;
+   animation-timing-function: ease-in;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   /* animation-direction: reverse; */
+
+}
+
+.fa-couch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    color: #F2E0FB;
+}
+
+@keyframes upDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(4%); }
+    100% { transform: translateY(0); }
+ }
+ @keyframes leftRight {
+    0% { transform: rotate(2deg); }
+    25% { transform: rotate(0deg); }
+    50% { transform: rotate(-2deg); }
+    75% { transform: rotate(0deg); }
+    100% { transform: rotate(2deg); }
+ }
+
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: #272727;
+}
+
+h1 {
+    font-family: 'Rubik';
+    font-style: italic;
+    line-height: 75%;
+    font-size: 15em;
+}
+
+.button {
+    font-family: 'Lato';
+    font-size: 1.3em;
+    text-align: right;
+    padding: 10px;    
+}
+
+a {
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
