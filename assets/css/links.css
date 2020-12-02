@@ -39,14 +39,18 @@
     flex-direction: row;
 }
 
+
 /* LINKS */
 
 .cunning {
     color: #E0F9FB;
 }
+.gang {
+    color: #fdf9ed;
+}
 
 .links {
-    color: white;
+    color: #fdf9ed;
     font-size: 48px;
 }
 .fa-images {
@@ -106,11 +110,11 @@
 * {
     margin: 0;
     padding: 0;
-    color: white;
+    color: #fdf9ed;
 }
 
 body {
-    background: #272727;
+    background:  #30323D;
 }
 
 h1 {

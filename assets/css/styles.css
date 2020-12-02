@@ -1,8 +1,8 @@
 
 /* HOME PAGE */
 
-#home-page body{
-    background: red;
+body{
+    background: #fdf9ed;
 }
 
 #logo {
@@ -30,6 +30,7 @@ h1 {
     font-style: italic;
     line-height: 75%;
     font-size: 15em;
+    color: #30323D;
 }
 
 .button {
@@ -41,7 +42,7 @@ h1 {
 
 a {
     cursor: pointer;
-    color: black;
+    color: #30323D;
     text-decoration: none;
 }
 

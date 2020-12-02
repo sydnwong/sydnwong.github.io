@@ -3,6 +3,9 @@
 .cunning {
     color: #FBE0E6;
 }
+.gang {
+    color: #fdf9ed;
+}
 
 /* NAV BAR */
 
@@ -45,7 +48,8 @@
 }
 
 h2, .sm, span {
-    background: white;
+    background: #fdf9ed;
+    
     
 }
 
@@ -80,17 +84,17 @@ h2, .sm, span {
 }
 
 .front {
-    background: white;
+    background:#fdf9ed;
     transform: perspective(600px) rotateY(0deg);
 }
 .back {
-    background: white;
+    background: #fdf9ed;
     transform: perspective(600px) rotateY(180deg);
 }
 
 .back-content {
     color: black;
-    background: white;
+    background:#fdf9ed;
     text-align: center;
     width: 100%;
 }
@@ -105,14 +109,14 @@ h2, .sm, span {
     justify-content: center;
     align-items: center;
     /* color: #FBE0E6; */
-    background: white;
+    background: #fdf9ed;
     font-size: 24px;
     transition: 0.4s;
     border-radius: 50%
 }
 .fab:hover {
     background:  #EAC0CA;
-    color: white;
+    color:#fdf9ed;
 }
 
 i {
@@ -121,7 +125,7 @@ i {
     height: 40px; */
     justify-content: center;
     align-items: center;
-    background: white;
+    background: #fdf9ed;
     color: #EAC0CA;
 
 }
@@ -162,7 +166,7 @@ i {
 #text {
     position: absolute;
     top: 70%;
-    background: white;
+    background: #fdf9ed;
     
     margin: 4%;
 
@@ -222,7 +226,7 @@ i {
 * {
     margin: 0;
     padding: 0;
-    background: #272727;
+    background: #30323D;
     text-decoration: none;
     
 }
@@ -254,8 +258,8 @@ span {
 
 a {
     cursor: pointer;
-    color: white;
-    background: white;
+    color:  #fdf9ed;
+    background:  #fdf9ed;
     text-decoration: none;
 }
 
